@@ -1,0 +1,25 @@
+@'
+# Large binary bundles (>100MB blocked by GitHub)
+*.tar.gz
+*.tar
+*.zip
+*.7z
+
+.vscode
+# Feature cache files (gigabyte arrays)
+*.npy
+*.npz
+
+# Python & Environment artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# Temporary run outputs
+my_custom_model/
+visar_export/
+'@ | Out-File -FilePath .gitignore -Encoding utf8
