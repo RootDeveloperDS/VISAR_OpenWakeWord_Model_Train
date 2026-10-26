@@ -1,4 +1,3 @@
-@'
 # Visar (वी-सार) — Edge Wake Word Model
 
 Custom offline wake-word detection engine fine-tuned for Indian phonetics (Devanagari "वी-सार" / Indian English "Vee-saar").
@@ -20,4 +19,5 @@ Custom offline wake-word detection engine fine-tuned for Indian phonetics (Devan
 ## Full Model Weights & Checkpoints
 Due to GitHub file size limits, the uncompressed step checkpoints and raw training bundle (306 MB) are hosted on Hugging Face:
 🔗 **[RootDeveloperDS/Visar_OpenWakeWord_Model](https://huggingface.co/RootDeveloperDS/Visar_OpenWakeWord_Model)**
-'@ | Out-File -FilePath README.md -Encoding utf8
+
+
